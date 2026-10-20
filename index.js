@@ -1,18 +1,18 @@
 
 function add(a, b) {
-    return a - b; // BUG 1
+    return a + b; // BUG 1
 }
 
 function subtract(a, b) {
-    return a + b; // BUG 2
+    return a - b; // BUG 2
 }
 
 function multiply(a, b) {
-    return a + b; // BUG 3
+    return a * b; // BUG 3
 }
 
 function divide(a, b) {
-    return a * b; // BUG 4
+    return a / b; // BUG 4
 }
 
 function divideByZero(a, b) {
